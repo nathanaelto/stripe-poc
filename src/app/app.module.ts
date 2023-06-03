@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CreateTokenComponent } from './create-token/create-token.component';
 import {NgxStripeModule, StripeCardComponent} from "ngx-stripe";
 import { CheckoutComponent } from './checkout/checkout.component';
 import {HttpClientModule} from "@angular/common/http";
@@ -11,7 +10,6 @@ import {HttpClientModule} from "@angular/common/http";
 @NgModule({
   declarations: [
     AppComponent,
-    CreateTokenComponent,
     CheckoutComponent
   ],
   imports: [
